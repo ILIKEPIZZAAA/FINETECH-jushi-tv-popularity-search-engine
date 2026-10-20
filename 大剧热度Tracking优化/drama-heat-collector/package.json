@@ -1,0 +1,17 @@
+{
+  "name": "drama-heat-collector",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "开源电视剧热度/榜单采集服务（本地 localhost HTTP）。HTTP 直连 + Playwright 无头浏览器两层采集器，供投放复盘自查各平台公开热度，数据均来自各平台公开页面，仓库不含平台商业数据本体。",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "playwright-core": "^1.48.0"
+  }
+}

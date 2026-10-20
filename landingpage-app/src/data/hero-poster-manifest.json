@@ -1,0 +1,819 @@
+{
+  "excludedNumbers": [
+    6,
+    17,
+    23,
+    30,
+    32,
+    40,
+    41,
+    45,
+    49,
+    50
+  ],
+  "originalBytes": 27826265,
+  "optimizedBytes": 479436,
+  "items": [
+    {
+      "number": "01",
+      "title": "陈情令",
+      "year": 2019,
+      "showId": 42806,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-01-8b8d1cd39fb2.webp",
+      "width": 240,
+      "height": 343,
+      "bytes": 9158,
+      "sourceUrl": "https://www.tvmaze.com/shows/42806/the-untamed",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/236/592104.jpg",
+      "sourceSha256": "7cbddc897ed4c66530ed0be569f8f9f16eb836f4a40a9c4924dc47cb48cbb259",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-01-fe9862df2b7b.webp",
+        "width": 360,
+        "height": 514,
+        "bytes": 29340
+      }
+    },
+    {
+      "number": "02",
+      "title": "庆余年",
+      "year": 2019,
+      "showId": 45302,
+      "seasonId": 103423,
+      "image": "/hero-posters/selected/hero-02-c6093e0cf191.webp",
+      "width": 240,
+      "height": 336,
+      "bytes": 9118,
+      "sourceUrl": "https://www.tvmaze.com/seasons/103423/joy-of-life-season-1",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/229/573761.jpg",
+      "sourceSha256": "ae30f7b1e8aa99331d715ffbf86e60bf4d5c9ad1ec29024e4f59bb330d7f95d5",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-02-9c5ae49571a8.webp",
+        "width": 360,
+        "height": 504,
+        "bytes": 28554
+      }
+    },
+    {
+      "number": "03",
+      "title": "长安十二时辰",
+      "year": 2019,
+      "showId": 42884,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-03-cb0ca3be9ab7.webp",
+      "width": 240,
+      "height": 353,
+      "bytes": 12490,
+      "sourceUrl": "https://www.tvmaze.com/shows/42884/the-longest-day-in-changan",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/204/510372.jpg",
+      "sourceSha256": "287cb92edb9ee8a9903e2b69da80fcca984aaae6056535fce5676f103f6d9fea",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-03-77676f5e2114.webp",
+        "width": 360,
+        "height": 529,
+        "bytes": 41332
+      }
+    },
+    {
+      "number": "04",
+      "title": "都挺好",
+      "year": 2019,
+      "showId": 41541,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-04-012256a7839c.webp",
+      "width": 240,
+      "height": 353,
+      "bytes": 8970,
+      "sourceUrl": "https://www.tvmaze.com/shows/41541/all-is-well",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/189/474280.jpg",
+      "sourceSha256": "540b2832085794242b3ba93abe5548a59e3f9b3a309497461e98c37c0b5baaad",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-04-eacc142cafc5.webp",
+        "width": 360,
+        "height": 529,
+        "bytes": 26612
+      }
+    },
+    {
+      "number": "05",
+      "title": "破冰行动",
+      "year": 2019,
+      "showId": 42081,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-05-df887c86f33d.webp",
+      "width": 240,
+      "height": 339,
+      "bytes": 13902,
+      "sourceUrl": "https://www.tvmaze.com/shows/42081/the-thunder",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/195/487757.jpg",
+      "sourceSha256": "1b0e8b28b1983a2d998e28d56a1d6c6f228933b3e1be9425df21e71aac403bf3",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-05-39ed49db7a2f.webp",
+        "width": 360,
+        "height": 509,
+        "bytes": 42352
+      }
+    },
+    {
+      "number": "07",
+      "title": "隐秘的角落",
+      "year": 2020,
+      "showId": 48848,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-07-bd0784797084.webp",
+      "width": 240,
+      "height": 360,
+      "bytes": 12528,
+      "sourceUrl": "https://www.tvmaze.com/shows/48848/the-bad-kids",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/621/1553359.jpg",
+      "sourceSha256": "71538d4d522b2f54bee5442fc992e8f5c01ebcc9d35bb45604a1b6c455071c15",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-07-d0fc92a22c17.webp",
+        "width": 360,
+        "height": 540,
+        "bytes": 37690
+      }
+    },
+    {
+      "number": "08",
+      "title": "沉默的真相",
+      "year": 2020,
+      "showId": 50605,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-08-552e0a5a7a01.webp",
+      "width": 240,
+      "height": 427,
+      "bytes": 11224,
+      "sourceUrl": "https://www.tvmaze.com/shows/50605/the-long-night",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/274/686952.jpg",
+      "sourceSha256": "22199cdf6cb27a09ae06788dc1f0d94aa448942ff7cc57f2e79c2ffe965edb2b",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-08-b7e946de56a0.webp",
+        "width": 360,
+        "height": 640,
+        "bytes": 52046
+      }
+    },
+    {
+      "number": "09",
+      "title": "以家人之名",
+      "year": 2020,
+      "showId": 49752,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-09-449bc31ec685.webp",
+      "width": 240,
+      "height": 360,
+      "bytes": 11708,
+      "sourceUrl": "https://www.tvmaze.com/shows/49752/go-ahead",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/400/1002139.jpg",
+      "sourceSha256": "dc47b473fe395c9badfc5fd9502479572e73a827d293e05d3152b4a75fadac11",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-09-b2dddaf7baf8.webp",
+        "width": 360,
+        "height": 540,
+        "bytes": 36150
+      }
+    },
+    {
+      "number": "10",
+      "title": "琉璃",
+      "year": 2020,
+      "showId": 49584,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-10-58cbdd37fb65.webp",
+      "width": 240,
+      "height": 336,
+      "bytes": 10410,
+      "sourceUrl": "https://www.tvmaze.com/shows/49584/love-and-redemption",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/267/669105.jpg",
+      "sourceSha256": "4b23ecee2584808b1b4f8e04db3f206a0f5da926f3be45de90b2f5491f6db830",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-10-c1f917df3f4a.webp",
+        "width": 360,
+        "height": 504,
+        "bytes": 41160
+      }
+    },
+    {
+      "number": "11",
+      "title": "你是我的荣耀",
+      "year": 2021,
+      "showId": 56466,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-11-e50a09b3c3c2.webp",
+      "width": 240,
+      "height": 360,
+      "bytes": 9030,
+      "sourceUrl": "https://www.tvmaze.com/shows/56466/you-are-my-glory",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/400/1001350.jpg",
+      "sourceSha256": "53bc793b058aca1b675e435ffa993ed1bc754f13138c81bdfee27bf4d5a4146e",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-11-b20166e77c86.webp",
+        "width": 360,
+        "height": 540,
+        "bytes": 28994
+      }
+    },
+    {
+      "number": "12",
+      "title": "山海情",
+      "year": 2021,
+      "showId": 54237,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-12-2cf41de54094.webp",
+      "width": 240,
+      "height": 351,
+      "bytes": 11448,
+      "sourceUrl": "https://www.tvmaze.com/shows/54237/minning-town",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/327/817871.jpg",
+      "sourceSha256": "2f08c7a719223be935baf2d2f0acef6ddf2aa01059fc764b940f91926fcbd5ed",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-12-bde64e03e035.webp",
+        "width": 360,
+        "height": 526,
+        "bytes": 51428
+      }
+    },
+    {
+      "number": "13",
+      "title": "扫黑风暴",
+      "year": 2021,
+      "showId": 56758,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-13-e4288ad98b77.webp",
+      "width": 240,
+      "height": 360,
+      "bytes": 9266,
+      "sourceUrl": "https://www.tvmaze.com/shows/56758/sao-hei-feng-bao",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/347/867973.jpg",
+      "sourceSha256": "7edafa7874f068b6c8cb2a00fc1e1f7c749e69279414bfde2520907e6642be17",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-13-7184f9f98abd.webp",
+        "width": 360,
+        "height": 540,
+        "bytes": 30286
+      }
+    },
+    {
+      "number": "14",
+      "title": "乔家的儿女",
+      "year": 2021,
+      "showId": 68319,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-14-4abb4ea64656.webp",
+      "width": 240,
+      "height": 353,
+      "bytes": 10714,
+      "sourceUrl": "https://www.tvmaze.com/shows/68319/the-bond",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/458/1146562.jpg",
+      "sourceSha256": "64cdc51ae17947c83d5887b690c657b3aa3a5e652417ca6c12961c3593330eb5",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-14-b16443bc0f13.webp",
+        "width": 360,
+        "height": 529,
+        "bytes": 31426
+      }
+    },
+    {
+      "number": "15",
+      "title": "叛逆者",
+      "year": 2021,
+      "showId": 67608,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-15-afe457626615.webp",
+      "width": 240,
+      "height": 353,
+      "bytes": 6488,
+      "sourceUrl": "https://www.tvmaze.com/shows/67608/the-rebel",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/453/1132711.jpg",
+      "sourceSha256": "1bccdf05cf8d6c5a08885cf2fe661e8857047e0d4427cd3e5041c2720ebfc7cc",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-15-eefa69b1b67d.webp",
+        "width": 360,
+        "height": 529,
+        "bytes": 21194
+      }
+    },
+    {
+      "number": "16",
+      "title": "星汉灿烂",
+      "year": 2022,
+      "showId": 62994,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-16-1ed390cb7ae7.webp",
+      "width": 240,
+      "height": 353,
+      "bytes": 7512,
+      "sourceUrl": "https://www.tvmaze.com/shows/62994/love-like-the-galaxy",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/415/1038524.jpg",
+      "sourceSha256": "f4e2f9d7f44b5af83ecb3696704d34b01f76003abfffc502beb64709841473d8",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-16-d73b724aeefa.webp",
+        "width": 360,
+        "height": 529,
+        "bytes": 30420
+      }
+    },
+    {
+      "number": "18",
+      "title": "苍兰诀",
+      "year": 2022,
+      "showId": 63443,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-18-a458f61410e7.webp",
+      "width": 240,
+      "height": 342,
+      "bytes": 12160,
+      "sourceUrl": "https://www.tvmaze.com/shows/63443/love-between-fairy-and-devil",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/418/1045751.jpg",
+      "sourceSha256": "f8efc3f136a0715bf4d776838babc264022c1569df8910ef64d1c0b8e9215e34",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-18-ebd62e0f803e.webp",
+        "width": 360,
+        "height": 513,
+        "bytes": 44958
+      }
+    },
+    {
+      "number": "19",
+      "title": "梦华录",
+      "year": 2022,
+      "showId": 62384,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-19-3e5f75498bfb.webp",
+      "width": 240,
+      "height": 427,
+      "bytes": 16186,
+      "sourceUrl": "https://www.tvmaze.com/shows/62384/a-dream-of-splendor",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/575/1439027.jpg",
+      "sourceSha256": "163fec31492ec9865649924751765dd2d42243d94a50b45dd506cb501a3a0f0a",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-19-c81cbe24f4cb.webp",
+        "width": 360,
+        "height": 640,
+        "bytes": 55776
+      }
+    },
+    {
+      "number": "20",
+      "title": "警察荣誉",
+      "year": 2022,
+      "showId": 75145,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-20-c7f703104671.webp",
+      "width": 240,
+      "height": 353,
+      "bytes": 9570,
+      "sourceUrl": "https://www.tvmaze.com/shows/75145/ordinary-greatness",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/507/1268067.jpg",
+      "sourceSha256": "bd4232359b3ec23c9347ba5917dada9a53163c733b777360ffcfa8eaa1e7364e",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-20-c068ecba6e7e.webp",
+        "width": 360,
+        "height": 529,
+        "bytes": 25872
+      }
+    },
+    {
+      "number": "21",
+      "title": "狂飙",
+      "year": 2023,
+      "showId": 66374,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-21-5d97d2128adf.webp",
+      "width": 240,
+      "height": 427,
+      "bytes": 22054,
+      "sourceUrl": "https://www.tvmaze.com/shows/66374/the-knockout",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/441/1103920.jpg",
+      "sourceSha256": "830f915cb6ad9494d672691f53b5893d41ca186d7362fe921dd920add8a9a452",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-21-808161978398.webp",
+        "width": 360,
+        "height": 640,
+        "bytes": 78672
+      }
+    },
+    {
+      "number": "22",
+      "title": "漫长的季节",
+      "year": 2023,
+      "showId": 68269,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-22-c2a9a92297b1.webp",
+      "width": 240,
+      "height": 360,
+      "bytes": 15442,
+      "sourceUrl": "https://www.tvmaze.com/shows/68269/the-long-season",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/458/1145672.jpg",
+      "sourceSha256": "cd45c8625f8c2b070898a37b383fda42d7a058339ddddad36b31f0516a1586cb",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-22-dd6318f458e6.webp",
+        "width": 360,
+        "height": 540,
+        "bytes": 56092
+      }
+    },
+    {
+      "number": "24",
+      "title": "长相思",
+      "year": 2023,
+      "showId": 69142,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-24-662880376733.webp",
+      "width": 240,
+      "height": 337,
+      "bytes": 9710,
+      "sourceUrl": "https://www.tvmaze.com/shows/69142/lost-you-forever",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/525/1314714.jpg",
+      "sourceSha256": "dac66ae0243c3150cd65d4a52b228bd998544e3115af621b455b9cd13487eb66",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-24-81165d1a5b76.webp",
+        "width": 360,
+        "height": 505,
+        "bytes": 44030
+      }
+    },
+    {
+      "number": "25",
+      "title": "莲花楼",
+      "year": 2023,
+      "showId": 69152,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-25-b2aa5e373b1c.webp",
+      "width": 240,
+      "height": 371,
+      "bytes": 13378,
+      "sourceUrl": "https://www.tvmaze.com/shows/69152/mysterious-lotus-casebook",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/477/1193171.jpg",
+      "sourceSha256": "3acff9f8962525dae8fbc1f8b7e943884d2e63d026c915eb0e2eff7f6369d2f5",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-25-04c90de89f63.webp",
+        "width": 360,
+        "height": 556,
+        "bytes": 52854
+      }
+    },
+    {
+      "number": "26",
+      "title": "庆余年第二季",
+      "year": 2024,
+      "showId": 45302,
+      "seasonId": 112643,
+      "image": "/hero-posters/selected/hero-26-f4125f0b13ca.webp",
+      "width": 240,
+      "height": 386,
+      "bytes": 12632,
+      "sourceUrl": "https://www.tvmaze.com/seasons/112643/joy-of-life-season-2",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/410/1026181.jpg",
+      "sourceSha256": "5ae9ab876c459ff09f4a7353c8faf2fe1a5d74203aebe082b62963de1a7d8d01",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-26-e2ee2a2b6d85.webp",
+        "width": 360,
+        "height": 579,
+        "bytes": 40398
+      }
+    },
+    {
+      "number": "27",
+      "title": "与凤行",
+      "year": 2024,
+      "showId": 71156,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-27-8e92fd385524.webp",
+      "width": 240,
+      "height": 383,
+      "bytes": 12642,
+      "sourceUrl": "https://www.tvmaze.com/shows/71156/the-legend-of-shenli",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/476/1191351.jpg",
+      "sourceSha256": "3ea98a90a3fb44aca123f4f2e08e053267bc747afaef136477340a690dab14af",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-27-1fd16c67b1c6.webp",
+        "width": 360,
+        "height": 575,
+        "bytes": 49252
+      }
+    },
+    {
+      "number": "28",
+      "title": "小巷人家",
+      "year": 2024,
+      "showId": 73389,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-28-e371d012e1ce.webp",
+      "width": 240,
+      "height": 360,
+      "bytes": 14744,
+      "sourceUrl": "https://www.tvmaze.com/shows/73389/romance-in-the-alley",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/540/1350998.jpg",
+      "sourceSha256": "54be965fefddb0ff2ce2a511b67ac3e60a0812a3d23e46997621b17924fde1cd",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-28-a090ff3db8fa.webp",
+        "width": 360,
+        "height": 540,
+        "bytes": 50326
+      }
+    },
+    {
+      "number": "29",
+      "title": "墨雨云间",
+      "year": 2024,
+      "showId": 74786,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-29-23c7605d2c45.webp",
+      "width": 240,
+      "height": 320,
+      "bytes": 13688,
+      "sourceUrl": "https://www.tvmaze.com/shows/74786/the-double",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/521/1303630.jpg",
+      "sourceSha256": "6f18eb6d66949b481c81d51c0e220b7f9e7dcb6a14596d78a63789df6cc964ff",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-29-d5c76df67cb5.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 45286
+      }
+    },
+    {
+      "number": "31",
+      "title": "六姊妹",
+      "year": 2025,
+      "showId": 73974,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-31-8c5288257ec7.webp",
+      "width": 240,
+      "height": 378,
+      "bytes": 12114,
+      "sourceUrl": "https://www.tvmaze.com/shows/73974/six-sisters",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/539/1349946.jpg",
+      "sourceSha256": "a331d7c58f8b3f07624d4ab0a9a08eb166eab4d78063f752c2725ff77dddfbf9",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-31-3c733933b6e1.webp",
+        "width": 360,
+        "height": 567,
+        "bytes": 36536
+      }
+    },
+    {
+      "number": "33",
+      "title": "折腰",
+      "year": 2025,
+      "showId": 71818,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-33-4193f579e0da.webp",
+      "width": 240,
+      "height": 427,
+      "bytes": 12134,
+      "sourceUrl": "https://www.tvmaze.com/shows/71818/the-prisoner-of-beauty",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/480/1200992.jpg",
+      "sourceSha256": "fa1f86c164638ac4870db7f043fc2559b71115c13546364bad6c2a13865beb59",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-33-8ca8292336af.webp",
+        "width": 360,
+        "height": 640,
+        "bytes": 32864
+      }
+    },
+    {
+      "number": "34",
+      "title": "生万物",
+      "year": 2025,
+      "showId": 75759,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-34-34b518cde7c3.webp",
+      "width": 240,
+      "height": 427,
+      "bytes": 15678,
+      "sourceUrl": "https://www.tvmaze.com/shows/75759/this-thriving-land",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/538/1346390.jpg",
+      "sourceSha256": "a57e17a416e3b15388ab6e6b8f7e0f94ba19996735f7f6fa93131d2951688146",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-34-2f93dbd6c865.webp",
+        "width": 360,
+        "height": 640,
+        "bytes": 58024
+      }
+    },
+    {
+      "number": "35",
+      "title": "以法之名",
+      "year": 2025,
+      "showId": 76450,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-35-c79e111dae0d.webp",
+      "width": 240,
+      "height": 320,
+      "bytes": 6932,
+      "sourceUrl": "https://www.tvmaze.com/shows/76450/in-the-name-of-justice",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/574/1436765.jpg",
+      "sourceSha256": "e309ab60b6e323caf579b21dd526421dc71f89d4fdee2ea8021caa393923945f",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-35-d48460f1669f.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 25690
+      }
+    },
+    {
+      "number": "36",
+      "title": "逐玉",
+      "year": 2026,
+      "showId": 81468,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-36-45eab83e52f5.webp",
+      "width": 240,
+      "height": 427,
+      "bytes": 10530,
+      "sourceUrl": "https://www.tvmaze.com/shows/81468/pursuit-of-jade",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/565/1412537.jpg",
+      "sourceSha256": "30fceef0c91bed9723f1c783f3f754c17110afaeed262eda09a6c45393a006a3",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-36-8360c54afd4a.webp",
+        "width": 360,
+        "height": 640,
+        "bytes": 34902
+      }
+    },
+    {
+      "number": "37",
+      "title": "生命树",
+      "year": 2026,
+      "showId": 71527,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-37-42b06879f636.webp",
+      "width": 240,
+      "height": 427,
+      "bytes": 14716,
+      "sourceUrl": "https://www.tvmaze.com/shows/71527/born-to-be-alive",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/611/1529380.jpg",
+      "sourceSha256": "461de631dd0355ee55e0c6e878253c835c56fbab19ccad77ddf35433054b23ef",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-37-97e67b06bc23.webp",
+        "width": 360,
+        "height": 640,
+        "bytes": 50252
+      }
+    },
+    {
+      "number": "38",
+      "title": "好好的时光",
+      "year": 2026,
+      "showId": 80040,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-38-00f3dbc55578.webp",
+      "width": 240,
+      "height": 426,
+      "bytes": 16756,
+      "sourceUrl": "https://www.tvmaze.com/shows/80040/our-dazzling-days",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/538/1346388.jpg",
+      "sourceSha256": "cb38bfadc1ac50e25dbbb67233a38d96548829d75c30de0294da89bf5f0a9f0a",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-38-6d67fb9b069f.webp",
+        "width": 360,
+        "height": 639,
+        "bytes": 51414
+      }
+    },
+    {
+      "number": "39",
+      "title": "太平年",
+      "year": 2026,
+      "showId": 80605,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-39-c2244b91443a.webp",
+      "width": 240,
+      "height": 400,
+      "bytes": 14514,
+      "sourceUrl": "https://www.tvmaze.com/shows/80605/swords-into-plowshares",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/610/1525189.jpg",
+      "sourceSha256": "a0c0281a6f3648bc4b7e39fa673997ed611ecc8329bea50e4e0ab79ee4556beb",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-39-353f7ab19cb8.webp",
+        "width": 360,
+        "height": 600,
+        "bytes": 57550
+      }
+    },
+    {
+      "number": "42",
+      "title": "去有风的地方",
+      "year": 2023,
+      "showId": 66181,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-42-15268a9bbf14.webp",
+      "width": 240,
+      "height": 391,
+      "bytes": 14916,
+      "sourceUrl": "https://www.tvmaze.com/shows/66181/meet-yourself",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/439/1098436.jpg",
+      "sourceSha256": "5a2054c36a81ea3e6ea28f8aae2856c6478e7b2804b36cc6167eefaaf75b83ce",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-42-ad1f4a709cb4.webp",
+        "width": 360,
+        "height": 587,
+        "bytes": 50222
+      }
+    },
+    {
+      "number": "43",
+      "title": "追风者",
+      "year": 2024,
+      "showId": 75349,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-43-1eafabe3372b.webp",
+      "width": 240,
+      "height": 427,
+      "bytes": 6722,
+      "sourceUrl": "https://www.tvmaze.com/shows/75349/war-of-faith",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/508/1271723.jpg",
+      "sourceSha256": "70d9e84fca30687d3d55df0fd2de14aa92f389be5bdab123b9e72501bb723d16",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-43-ee1039316721.webp",
+        "width": 360,
+        "height": 640,
+        "bytes": 20548
+      }
+    },
+    {
+      "number": "44",
+      "title": "永夜星河",
+      "year": 2024,
+      "showId": 74292,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-44-28486b75884f.webp",
+      "width": 240,
+      "height": 427,
+      "bytes": 20236,
+      "sourceUrl": "https://www.tvmaze.com/shows/74292/love-game-in-eastern-fantasy",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/541/1354306.jpg",
+      "sourceSha256": "2e719c200161fa156b7a3dd340546f70f91d64c727add19efdab0a704f82c66e",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-44-908bce3c4ae1.webp",
+        "width": 360,
+        "height": 640,
+        "bytes": 66826
+      }
+    },
+    {
+      "number": "46",
+      "title": "雪迷宫",
+      "year": 2024,
+      "showId": 74774,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-46-0fe150fbc9bd.webp",
+      "width": 240,
+      "height": 427,
+      "bytes": 14736,
+      "sourceUrl": "https://www.tvmaze.com/shows/74774/the-first-shot",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/529/1323335.jpg",
+      "sourceSha256": "1d365ed5abab95fde68a5d3cb5f4c25875dc01e61135f063775237f1655bee29",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-46-cb8db0a77dad.webp",
+        "width": 360,
+        "height": 640,
+        "bytes": 52166
+      }
+    },
+    {
+      "number": "47",
+      "title": "白夜追凶",
+      "year": 2017,
+      "showId": 32701,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-47-30492e4b00fc.webp",
+      "width": 240,
+      "height": 353,
+      "bytes": 4348,
+      "sourceUrl": "https://www.tvmaze.com/shows/32701/day-and-night",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/131/328438.jpg",
+      "sourceSha256": "c79a8519e35b22adab23cb36f55e321237fadfe9050f8f4103320872826dd2c0",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-47-844200c3d912.webp",
+        "width": 360,
+        "height": 529,
+        "bytes": 11632
+      }
+    },
+    {
+      "number": "48",
+      "title": "仙台有树",
+      "year": 2025,
+      "showId": 71931,
+      "seasonId": null,
+      "image": "/hero-posters/selected/hero-48-36ba644f573c.webp",
+      "width": 240,
+      "height": 315,
+      "bytes": 8932,
+      "sourceUrl": "https://www.tvmaze.com/shows/71931/love-of-the-divine-tree",
+      "sourceImageUrl": "https://static.tvmaze.com/uploads/images/original_untouched/554/1387016.jpg",
+      "sourceSha256": "b50dec8ace7824b33c65d2e22d8c64cb025eced1db808bafa9582763c4860702",
+      "originalPresentation": {
+        "image": "/hero-posters/selected/hero-48-172a51873bf2.webp",
+        "width": 360,
+        "height": 472,
+        "bytes": 32572
+      }
+    }
+  ],
+  "presentationVersion": 2
+}

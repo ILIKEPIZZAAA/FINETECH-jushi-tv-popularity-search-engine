@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 420">
+  <defs><linearGradient id="g" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#23394a"/><stop offset="1" stop-color="#a8b7b5"/></linearGradient></defs>
+  <rect width="300" height="420" fill="url(#g)"/>
+  <path d="M0 228c58-43 113-22 160 26 39 40 86 52 140 16v150H0z" fill="#172a39" opacity=".66"/>
+  <path d="M36 100h228" stroke="#dbe4db" stroke-width="2" opacity=".45"/>
+  <text x="23" y="62" fill="#eef5ee" font-size="17" font-family="sans-serif" letter-spacing="4">FINETECH PICKS</text>
+  <text x="23" y="349" fill="#ffffff" font-size="30" font-family="serif">人生若如初见</text>
+  <text x="26" y="382" fill="#c4d8d6" font-size="13" font-family="sans-serif" letter-spacing="2">A LIFE OF JUST ONE DAY</text>
+</svg>

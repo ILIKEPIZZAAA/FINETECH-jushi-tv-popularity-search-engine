@@ -1,0 +1,84 @@
+.hot-rankings { width: min(1512px, 100%); margin: -24px auto 42px; color: #173641; text-align: left; }
+.hot-rankings-heading { display: flex; align-items: center; flex-direction: column; gap: 8px; margin-bottom: 24px; text-align: center; }
+.landing-page .hot-rankings-heading { opacity: 0; transform: translateY(30px); }
+.landing-page .hot-rankings.is-visible .hot-rankings-heading { animation: page-rise var(--home-motion-duration) var(--home-motion-ease) both; }
+.hot-rankings-heading h2 { margin: 0; font-size: 30px; letter-spacing: -.03em; }
+#hot-rankings-title { scroll-margin-top: calc(max(56px, 83px * var(--hero-design-px, 1)) + env(safe-area-inset-top, 0px) + 16px); }
+.hot-rankings-schedule { font-size: 12px; color: #718b98; white-space: nowrap; }
+.hot-rankings-grid { position: relative; isolation: isolate; display: grid; width: min(100%, 1200px); margin-inline: auto; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+.hot-rankings-grid::after { content: ""; position: absolute; z-index: 0; inset: -18px -30px -28px; pointer-events: none; background: radial-gradient(ellipse at 18% 44%, rgb(8 14 26 / 30%) 0 34%, transparent 75%), radial-gradient(ellipse at 50% 55%, rgb(8 14 26 / 34%) 0 40%, transparent 80%), radial-gradient(ellipse at 84% 48%, rgb(8 14 26 / 30%) 0 34%, transparent 75%); filter: blur(30px); }
+.hot-ranking-card { position: relative; z-index: 1; min-width: 0; padding: 20px 14px 16px; color: #fff; background: var(--c-primary); border: 1px solid rgba(255, 255, 255, .16); border-radius: 0; box-shadow: 0 12px 28px rgba(21, 35, 61, .14); }
+.landing-page .hot-rankings-grid .hot-ranking-card { opacity: 0; transform: translateY(42px); }
+.landing-page .hot-rankings-grid.is-visible .hot-ranking-card { animation: page-rise var(--home-motion-duration) var(--home-motion-ease) both; }
+.hot-ranking-card > header { display: flex; align-items: center; justify-content: center; gap: 12px; min-height: 68px; padding: 0 4px; }
+.hot-ranking-card > header > div { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0; width: 116px; height: 36px; text-align: center; }
+.hot-ranking-logo { flex: 0 0 36px; width: 36px; height: 36px; object-fit: contain; border-radius: 8px; }
+.hot-ranking-youku .hot-ranking-logo { background: #fff; }
+.hot-ranking-platform { font-weight: 700; font-size: 18px; line-height: 20px; }
+.hot-ranking-card h3 { font-size: 14px; font-weight: 400; line-height: 18px; color: #c0cde0; margin: 0; text-align: center; }
+.hot-ranking-chart,.hot-ranking-placeholder { height: 360px; }
+.hot-ranking-canvas { height: 100%; width: 100%; }
+.hot-ranking-placeholder { display: flex; flex-direction: column; align-items: center; justify-content: center; color: #c0cde0; text-align: center; font-size: 13px; }
+.hot-ranking-placeholder > span { font-size: 34px; color: #90a6c5; }
+.hot-ranking-placeholder small { font-size: 11px; }
+.hot-ranking-card > footer { border-top: 1px solid rgba(255, 255, 255, .18); margin-top: 10px; padding: 12px 4px 0; display: flex; flex-direction: column; gap: 5px; color: #b4c4da; font-size: 10px; line-height: 1.5; }
+.hot-ranking-card footer a { color: #b8d2ff; text-decoration: none; margin-top: 4px; }
+.landing-page .search-command .search-bar { gap: 0; padding: 0 16px; border: 1px solid #dce7e9; border-radius: 12px; color: #78929b; background: #fff; box-shadow: 0 4px 18px rgb(31 78 87 / 6%); }
+.landing-page .search-command.is-open .search-bar { border-radius: 12px 12px 0 0; border-bottom-color: #e4edef; }
+.landing-page .search-command .hero-search-submit { position: relative; flex: 0 0 26px; width: 26px; height: 100%; margin: 0; color: var(--c-primary); }
+.landing-page .search-command .hero-search-submit .search-icon { width: 20px; height: 20px; }
+.landing-page .search-command .search-bar input { position: relative; inset: auto; flex: 1 1 auto; width: 0; min-width: 0; padding: 0 12px; text-align: left; font-family: inherit; font-size: 16px; font-weight: 400; line-height: normal; color: #284651; caret-color: #527bff; }
+.landing-page .search-command .search-bar input:focus { outline: none; }
+.landing-page .search-command .search-bar input::selection { color: #284651; background: rgb(82 123 255 / 24%); }
+.landing-page .search-command .search-bar input::placeholder, .landing-page .search-command .search-bar input:focus::placeholder { color: #8aa1aa; opacity: 1; }
+.search-command-shortcut { flex: 0 0 auto; display: grid; place-items: center; width: 20px; height: 23px; border: 1px solid #d6e5e8; border-radius: 6px; font: inherit; font-size: 16px; color: #87a3ae; }
+.landing-page .search-command .search-panel { left: 0; right: 0; top: 100%; width: auto; min-width: 0; max-width: 100%; box-sizing: border-box; height: auto; max-height: min(540px, 65dvh); display: flex; flex-direction: column; transform: none; transform-origin: top center; animation: search-panel-drop-in 260ms cubic-bezier(.2, .75, .25, 1) both; border: 1px solid #dce7e9; border-top: 0; border-radius: 0 0 12px 12px; background: #fff; box-shadow: 0 20px 36px rgb(26 67 77 / 14%); }
+@keyframes search-panel-drop-in { from { opacity: 0; transform: translateY(-10px) scaleY(.97); } to { opacity: 1; transform: translateY(0) scaleY(1); } }
+@media (prefers-reduced-motion: reduce) { .landing-page .search-command .search-panel { animation: none; } }
+.landing-page .search-command .search-panel-empty { width: 100%; min-width: 0; max-width: 100%; box-sizing: border-box; height: auto; padding: 0; display: block; overflow-x: clip; overflow-y: auto; }
+.search-command .search-hot-list { width: 100%; min-width: 0; max-width: 100%; box-sizing: border-box; margin: 0; padding: 14px 16px 12px; text-align: left; }
+.search-command .search-hot-heading { margin: 0 0 10px; color: #8aa1aa; font-size: 13px; font-weight: 400; line-height: 1.5; }
+.search-command .search-hot-cards { display: grid; grid-template-columns: minmax(0, 1fr); gap: 2px; width: 100%; min-width: 0; margin: 0; }
+.search-command .search-hot-card { display: grid; grid-template-columns: 20px minmax(0, 1fr) minmax(50px, 120px) 40px; align-items: center; gap: 12px; width: 100%; min-width: 0; height: 36px; padding: 0; border: 0; border-radius: 5px; background: transparent; font: inherit; font-weight: 400; color: #284651; cursor: pointer; text-align: left; }
+.search-command .search-hot-card[aria-selected="true"], .search-command .search-hot-card:hover { background: var(--c-primary-soft); }
+.search-command .search-hot-card:focus-visible { outline: 2px solid var(--c-primary); outline-offset: 2px; }
+.search-hot-rank { color: #8aa1aa; font-size: 13px; font-variant-numeric: tabular-nums; }
+.search-command .search-hot-title { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-size: 16px; font-weight: 400; line-height: 1.4; }
+.search-hot-meter { height: 4px; overflow: hidden; border-radius: 4px; background: #e7eff1; }
+.search-hot-meter > span { display: block; height: 100%; border-radius: inherit; background: #a1c4cb; }
+.search-hot-card.is-top-three .search-hot-rank { color: var(--c-primary); }
+.search-hot-card.is-top-three .search-hot-meter > span { background: var(--c-primary); }
+.search-hot-card.is-lower-ranked .search-hot-meter > span { background: #9ea7b2; }
+.search-hot-value { grid-column: 4; color: #8aa1aa; font-size: 12px; font-variant-numeric: tabular-nums; text-align: right; }
+.search-command .search-hot-note { margin: 0; font-size: 13px; color: #8aa1aa; }
+.search-command .search-results { max-height: min(440px, 50dvh); padding: 16px; }
+.hot-ranking-rank-only { height: 360px; list-style: none; margin: 0; padding: 12px 4px; }
+.hot-ranking-rank-only li { display: flex; gap: 12px; align-items: center; padding: 16px 4px; border-bottom: 1px solid rgba(255, 255, 255, .16); font-size: 12px; }
+.hot-ranking-rank-only span { color: #9ebcff; font-weight: 700; flex-shrink: 0; }
+.hot-ranking-rank-only strong { font-weight: 500; }
+.hot-ranking-heat-heading { display: grid; grid-template-columns: auto minmax(64px, 92px); gap: 10px; justify-content: end; align-items: center; height: 26px; padding: 0 8px; color: #9eafc7; font-size: 10px; text-align: right; }
+.hot-ranking-youku .hot-ranking-rank-only { height: 298px; padding: 0 4px; }
+.hot-ranking-youku .hot-ranking-rank-only li { display: grid; grid-template-columns: auto minmax(0, 1fr) minmax(64px, 92px); gap: 10px; align-items: center; min-height: 0; padding: 5px 4px; }
+.hot-ranking-youku .hot-ranking-rank-only strong { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.hot-ranking-heat-value { color: #c0cde0; font-size: 11px; font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+.hot-ranking-heat-value.is-missing { color: #8190a8; font-size: 10px; }
+.hot-ranking-heat-extra { display: flex; align-items: center; gap: 8px; min-height: 32px; padding: 4px 8px 0; border-top: 1px solid rgba(255, 255, 255, .16); color: #9eafc7; font-size: 10px; }
+.hot-ranking-heat-extra > span { flex: 0 0 auto; }
+.hot-ranking-heat-extra > div { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 8px; flex: 1; min-width: 0; color: #e2eaf5; font-size: 11px; }
+.hot-ranking-heat-extra strong { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 500; }
+.hot-ranking-mango .hot-ranking-rank-only { display: grid; grid-template-rows: repeat(10, minmax(0, 1fr)); padding-top: 10px; padding-bottom: 24px; }
+.hot-ranking-mango .hot-ranking-rank-only li { min-height: 0; padding: 0 4px; }
+@media (prefers-reduced-motion: reduce) {
+  .landing-page .hot-rankings-heading,
+  .landing-page .hot-rankings-grid .hot-ranking-card { opacity: 1; transform: none; animation: none !important; }
+}
+@media (max-width: 1250px) { .hot-rankings-grid { width: min(100%, 800px); grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 640px) {
+  .hot-rankings { margin: 8px auto 48px; }
+  .hot-rankings-heading { align-items: center; flex-direction: column; gap: 12px; }
+  .hot-rankings-heading h2 { font-size: 25px; }
+  .hot-rankings-grid { width: min(100%, 400px); grid-template-columns: minmax(0, 1fr); gap: 14px; }
+  .hot-ranking-card { padding: 18px; }
+  .search-command .search-hot-card { grid-template-columns: 16px minmax(0, 1fr) minmax(36px, 70px) 40px; gap: 8px; }
+  .search-command .search-hot-title { font-size: 14px; }
+}

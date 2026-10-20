@@ -1,0 +1,15 @@
+# Dependencies and build output
+**/node_modules/
+**/dist/
+
+# Local-only credentials, analytics databases and runtime state
+**/.env
+**/.env.*
+landingpage-app/.runtime/
+**/auth.json
+**/*.sqlite
+**/*.sqlite-*
+**/*.log
+
+# OS/editor artifacts
+.DS_Store
