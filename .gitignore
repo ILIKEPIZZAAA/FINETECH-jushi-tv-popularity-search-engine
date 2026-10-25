@@ -1,0 +1,20 @@
+node_modules/
+dist/
+.playwright-cli/
+output/playwright/
+.runtime/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+*.sqlite*
+*.db
+*.pem
+*.key
+auth.json
+# 本仓库仅发布前端。
+server/
+backend/
+collectors/
+deploy/

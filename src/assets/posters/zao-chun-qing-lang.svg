@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 420">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="0.8" y2="1"><stop stop-color="#8eb7bf"/><stop offset="1" stop-color="#e5b997"/></linearGradient></defs>
+  <rect width="300" height="420" fill="url(#g)"/>
+  <circle cx="88" cy="135" r="58" fill="#fff6d7" opacity=".33"/>
+  <path d="M0 274c52-28 103-8 151 27 49 35 94 26 149-17v136H0z" fill="#456b70" opacity=".64"/>
+  <text x="23" y="62" fill="#fff8ea" font-size="17" font-family="sans-serif" letter-spacing="4">FINETECH PICKS</text>
+  <text x="23" y="349" fill="#fffdf5" font-size="32" font-family="serif">早春晴朗</text>
+  <text x="26" y="382" fill="#f6d8bd" font-size="13" font-family="sans-serif" letter-spacing="2">ZAO CHUN QING LANG</text>
+</svg>

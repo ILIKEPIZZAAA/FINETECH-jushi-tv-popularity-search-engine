@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><title>dashboard demo seed</title></head>
+<body style="background:#111;color:#eee;font:14px/1.6 ui-sans-serif,system-ui">
+<p>正在载入看板演示数据…</p>
+<script>
+(function () {
+  var isVariety = new URLSearchParams(location.search).get('type') === 'variety'
+  var id = isVariety ? 'demo-variety' : 'demo-yudangqiu'
+  var records = []
+  var start = new Date(Date.UTC(2026, 9, 12))
+  for (var i = 0; i < 10; i += 1) {
+    var d = new Date(start.getTime() + i * 86400000)
+    var date = d.toISOString().slice(0, 10)
+    var heat = Math.round(6980 + Math.sin(i * 0.85) * 420 + i * 175)
+    var exposure = Math.round(4.1e8 + i * 1.9e7 + Math.sin(i * 1.3) * 1.2e7)
+    var interaction = Math.round(2.05e7 + i * 9.4e5 + Math.sin(i * 0.7) * 4.2e5)
+    var publish = Math.round(2.4e6 + i * 8.8e4)
+    var danmaku = Math.round(8.6e6 + i * 2.6e5)
+    var effective = Math.round(1.62e9 + i * 4.6e7)
+    records.push({
+      date: date,
+      values: {
+        '猫眼热度': heat,
+        '猫眼全网曝光': exposure,
+        '猫眼全网转评赞': interaction,
+        '猫眼全网发布': publish,
+        '猫眼全网弹幕': danmaku,
+        '有效播放量': effective,
+        '爱奇艺平台表现': Math.round(heat * 0.62),
+        '优酷平台表现': Math.round(heat * 0.48),
+        '腾讯视频平台表现': Math.round(heat * 0.71),
+        '芒果TV平台表现': Math.round(heat * 0.26),
+        '爱奇艺有效播放': Math.round(effective * 0.41),
+        '优酷有效播放': Math.round(effective * 0.22),
+        '腾讯视频有效播放': Math.round(effective * 0.31),
+        '芒果TV有效播放': Math.round(effective * 0.06),
+        '爱奇艺累计有效播放': Math.round(effective * 0.41),
+        '优酷累计有效播放': Math.round(effective * 0.22),
+        '腾讯视频累计有效播放': Math.round(effective * 0.31),
+        '芒果TV累计有效播放': Math.round(effective * 0.06)
+      }
+    })
+  }
+  var project = {
+    id: id,
+    title: isVariety ? '综艺布局测试（合成数据）' : '剧集布局测试（合成数据）',
+    poster: '/hero-posters/drama-2024-11.jpg',
+    cast: ['张予曦', '徐若晗', '张丰毅'],
+    directors: ['鞠觉亮', '王辉', '国浩'],
+    premiered: '2026-10-12',
+    contentType: isVariety ? 'variety' : 'drama',
+    platforms: [
+      { name: '爱奇艺', dimension: 'web' },
+      { name: '腾讯视频', dimension: 'web' },
+      { name: '优酷', dimension: 'web' },
+      { name: '芒果TV', dimension: 'web' }
+    ]
+  }
+  var liveHeat = {}
+  liveHeat[id] = records
+  var state = {
+    version: 1,
+    projects: [project],
+    selectedId: id,
+    competitors: {},
+    liveHeat: liveHeat,
+    collection: {},
+    tvRatings: {},
+    sourceSync: {},
+    logs: []
+  }
+  try {
+    sessionStorage.setItem('drama-signal-web-projects-v1', JSON.stringify(state))
+    sessionStorage.setItem('drama-signal-web-session-v1', JSON.stringify({ projectId: id, view: 'heat', platform: 'maoyan', dimension: 'heat' }))
+    location.replace('/?flow=dashboard')
+  } catch (error) {
+    document.body.innerHTML = '<pre style="color:#f88">' + String(error) + '</pre>'
+  }
+})()
+</script>
+</body>
+</html>

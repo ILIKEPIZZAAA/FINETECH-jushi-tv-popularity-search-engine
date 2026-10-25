@@ -1,0 +1,32 @@
+:root {
+  --font-ui: Inter, "MiSans VF", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  --font-en: Inter, "MiSans VF", ui-sans-serif, system-ui, sans-serif;
+  --design-px: 1px;
+  --hero-design-px: 1;
+  --site-header-height: max(56px, calc(83px * var(--hero-design-px)));
+  --c-hero: #15233d;
+  --c-mid: #f0f8fb;
+  --c-footer: #000000;
+  --c-ink: #000000;
+  --c-ink-invert: #ffffff;
+  --c-muted: #596673;
+  --c-guide: #5c79a9;
+  --c-guide-soft: rgb(92 121 169 / 28%);
+  --c-guide-faint: rgb(92 121 169 / 18%);
+  --c-search-bg: #eef1f7;
+  --c-placeholder: #d9d9d9;
+  --home-motion-duration: 1800ms;
+  --home-motion-ease: cubic-bezier(.18, .84, .16, 1);
+  --home-motion-distance: 46px;
+  --mid-height: 354px;
+  --content-width: min(1108px, calc(100% - 64px));
+}
+
+/* Shared screens retain their existing scale. The landing hero shrinks for
+   smaller desktop viewports and stops growing at the 1920 × 1080 baseline. */
+@media (min-width: 761px) {
+  :root {
+    --design-px: max(1px, min(calc(100vw / 1920), calc(100svh / 1080)));
+    --hero-design-px: calc(min(calc(100vw / 1920px), calc(100svh / 1080px), 1) * 0.9);
+  }
+}

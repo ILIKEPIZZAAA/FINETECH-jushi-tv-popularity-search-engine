@@ -1,0 +1,28 @@
+{
+  "name": "finetech-jushi-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "demo": "vite --host 127.0.0.1 --open /__dashboard-demo.html",
+    "test": "node --test test/*.test.mjs",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4173"
+  },
+  "dependencies": {
+    "@babel/parser": "7.29.8",
+    "@tabler/icons-react": "3.49.0",
+    "@vitejs/plugin-react": "4.7.0",
+    "echarts": "6.1.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "vite": "5.4.21",
+    "xlsx": "0.18.5"
+  },
+  "description": "聚势非营利剧综信息工具的开源前端",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}
